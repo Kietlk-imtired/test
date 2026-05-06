@@ -29,14 +29,14 @@ jobs:
 
   precheck:
     needs: gds
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Run Tiny Tapeout Precheck
         uses: TinyTapeout/tt-gds-action/precheck@ttsky26a
 
   viewer:
     needs: gds
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
