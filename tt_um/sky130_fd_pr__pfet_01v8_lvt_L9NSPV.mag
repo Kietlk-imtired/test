@@ -1,0 +1,75 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1767001404
+<< nwell >>
+rect -194 -348 194 314
+<< pmoslvt >>
+rect -100 -286 100 214
+<< pdiff >>
+rect -158 202 -100 214
+rect -158 -274 -146 202
+rect -112 -274 -100 202
+rect -158 -286 -100 -274
+rect 100 202 158 214
+rect 100 -274 112 202
+rect 146 -274 158 202
+rect 100 -286 158 -274
+<< pdiffc >>
+rect -146 -274 -112 202
+rect 112 -274 146 202
+<< poly >>
+rect -78 295 78 311
+rect -78 278 -62 295
+rect -100 261 -62 278
+rect 62 278 78 295
+rect 62 261 100 278
+rect -100 214 100 261
+rect -100 -312 100 -286
+<< polycont >>
+rect -62 261 62 295
+<< locali >>
+rect -78 261 -62 295
+rect 62 261 78 295
+rect -146 202 -112 218
+rect -146 -290 -112 -274
+rect 112 202 146 218
+rect 112 -290 146 -274
+<< viali >>
+rect -146 -274 -112 202
+rect 112 -274 146 202
+<< metal1 >>
+rect -152 202 -106 214
+rect -152 -274 -146 202
+rect -112 -274 -106 202
+rect 106 202 152 214
+rect 106 200 112 202
+rect 0 0 112 200
+rect 106 -200 112 0
+rect -152 -286 -106 -274
+rect 0 -274 112 -200
+rect 146 200 152 202
+rect 146 0 200 200
+rect 146 -200 152 0
+rect 146 -274 200 -200
+rect 0 -400 200 -274
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+use sky130_fd_pr__pfet_01v8_lvt_SHLKTX  X0
+timestamp 0
+transform 1 0 49 0 1 -784
+box 0 0 1 1
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 a_n100_n312#
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 w_n194_n348#
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 a_100_n286#
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 a_n158_n286#
+port 3 nsew
+<< properties >>
+string gencell sky130_fd_pr__pfet_01v8_lvt
+string library sky130
+string parameters w 2.5 l 1.0 m 1 nf 1 diffcov 100 polycov 74 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 80 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.35 wmin 0.42 class mosfet compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 1 viasrc 100 viadrn 100 viagate 0 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>
